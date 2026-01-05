@@ -1,0 +1,31 @@
+name: Hourly IP Update
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时执行一次，你可以根据需要修改
+  workflow_dispatch:      # 允许你在 Actions 界面点击手动运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch IPv6
+        run: python fetch_ips.py
+
+      - name: Push results
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ipv6.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update IPv6 list" && git push)
