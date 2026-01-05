@@ -2,8 +2,8 @@ name: Hourly IP Update
 
 on:
   schedule:
-    - cron: '0 */5 * * *'  # 每小时执行一次，你可以根据需要修改
-  workflow_dispatch:      # 允许你在 Actions 界面点击手动运行
+    - cron: '0 */5 * * *'  # 每 5 小时执行一次
+  workflow_dispatch:      # 允许手动点击运行
 
 jobs:
   build:
@@ -18,7 +18,7 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests beautifulsoup4
 
       - name: Fetch IPv6
         run: python fetch_ips.py
