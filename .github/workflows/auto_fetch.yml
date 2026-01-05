@@ -2,7 +2,7 @@ name: Hourly IP Update
 
 on:
   schedule:
-    - cron: '0 */5 * * *'  # 每 5 小时执行一次
+    - cron: '0 */3 * * *'  # 每 3 小时执行一次
   workflow_dispatch:      # 允许手动点击运行
 
 jobs:
