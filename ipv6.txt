@@ -1,10 +1,5 @@
-[2606:4700:91b8::8e:3b93]#Wetest
-[2606:4700:9a65::a1c2:7b0d]#Wetest
-[2606:4700:9a64::802a:ba74]#Wetest
-[2606:4700:9ae8::1f41:928d]#Wetest
-[2606:4700:9c64::6daf:a1e6]#Wetest
-[2606:4700:5c::a33e:985d]#Wetest
-[2a06:98c1:310f::4d59:d0ca]#Wetest
-[2606:4700:440d::591b:bca2]#Wetest
-[2606:4700:5b::4eab:ce2d]#Wetest
-[2803:f800:54::86e8:273f]#Wetest
+[2606:4700:ff00::f9e7:dcf2]#Wetest
+[2606:4700:ff00::dbf8:eadd]#Wetest
+[2606:4700:440d::8732:a654]#Wetest
+[2606:4700:52::4ea3:e488]#Wetest
+[2606:4700:52::a04f:9e3a]#Wetest
