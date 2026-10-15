@@ -1,5 +1,5 @@
-[2606:4700:13f:2d21:390a:98b4:5b3d:a294]#BestCF
-[2606:4700:13f:bf67:c96:3ffb:fd26:9ca0]#BestCF
-[2606:4700:8d7f:88af:2147:104e:5ef9:8dfa]#BestCF
-[2606:4700:83b9:b80b:3d81:f3b3:1d67:e5e]#BestCF
-[2606:4700:99e2:cbf1:54df:7e2e:a30e:3993]#BestCF
+[2606:4700:8d7f:c35a:31e:cbfc:cc31:7db9]#BestCF
+[2606:4700:9b05:ff61:b207:f10a:52a4:48e4]#BestCF
+[2606:4700:90c2:e0cc:20ea:6e30:c384:ee16]#BestCF
+[2606:4700:9b05:6261:d8b6:e7f9:aadb:1f36]#BestCF
+[2606:4700:8d7f:c1c4:cad9:e289:a2cb:c270]#BestCF
